@@ -27,6 +27,5 @@
     "device": "str?"
   },
   "ingress": true,
-  "panel_icon": "mdi:alpha-w-box",
-  "image": "ghcr.io/lrybak/owserver/{arch}"
+  "panel_icon": "mdi:alpha-w-box"
 }
