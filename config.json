@@ -1,9 +1,9 @@
 {
-  "name": "owserver (1-Wire)",
+  "name": "Onewire server (1-Wire)",
   "version": "0.2.1",
   "slug": "owserver",
   "description": "onewire server to read 1-Wire devices",
-  "url": "https://github.com/lrybak/hassio-owserver",
+  "url": "https://github.com/turbokongen/hassio-owserver",
   "startup": "system",
   "init": false,
   "arch": ["aarch64", "amd64", "armhf", "armv7"],
