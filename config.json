@@ -10,6 +10,10 @@
   "boot": "auto", 
   "host_network": true,
   "uart": true,
+  "ports": {
+    "8099/tcp": "8099",
+    "4304/tcp": "4304"
+  },
   "options": {
     "owhttpd": true,
     "device": ""
