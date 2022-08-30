@@ -13,7 +13,7 @@
   "devices": [
     "/dev/ttyUSB0",
     "/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0"
-    ]
+    ],
   "ports": {
     "8099/tcp": "8099",
     "4304/tcp": "4304"
