@@ -1,4 +1,9 @@
 # Changelog
+## 0.2.2
+- Upgrades addon-base to 12.2.0
+- Update permissions for script files
+- Allow fully spec of server type and device
+- Fix add-on system access
 
 ## 0.2.1
 
