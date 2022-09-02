@@ -20,7 +20,8 @@
   },
   "options": {
     "owhttpd": true,
-    "device": ""
+    "device": "",
+    "debug": false
   },
   "schema": {
     "owhttpd": "bool",
