@@ -33,7 +33,7 @@ RUN apk add --no-cache --virtual .build-deps alpine-keys bash automake make git 
     --disable-owfs \
     --disable-zero \
     --disable-avahi \
-    --enable-debug \
+    --disable-debug \
     --enable-owserver \
     --enable-owhttpd \
     --enable-ftdi \
