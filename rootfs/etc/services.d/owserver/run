@@ -1,8 +1,16 @@
 #!/usr/bin/with-contenv bashio
 
 
-if ! pgrep -x "/opt/owfs/bin/owserver" > /dev/null
-then
-    bashio::log.info "Starting owserver..."
-    exec /opt/owfs/bin/owserver -c /etc/owfs.conf
+if bashio::config.true 'debug' ;then
+    if ! pgrep -x "/opt/owfs/bin/owserver" > /dev/null
+    then
+        bashio::log.info "Starting owserver with debug..."
+        exec /opt/owfs/bin/owserver -c /etc/owfs.conf
+    fi
+else
+    if ! pgrep -x "/opt/owfs/bin/owserver" > /dev/null
+    then
+        bashio::log.info "Starting owserver..."
+        exec /opt/owfs/bin/owserver -c /etc/owfs.conf
+    fi
 fi
