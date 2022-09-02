@@ -25,7 +25,8 @@
   },
   "schema": {
     "owhttpd": "bool",
-    "device": "str?"
+    "device": "str?",
+    "debug": "bool"
   },
   "ingress": true,
   "panel_icon": "mdi:alpha-w-box"
