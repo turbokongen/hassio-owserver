@@ -42,6 +42,7 @@ RUN apk add --no-cache --virtual .build-deps alpine-keys bash automake make git 
   && make && make install \
   && cd / && rm -rf /owfs-code && apk del .build-deps
 	
+RUN apk add --update --no-cache libgcc
 # Copy data for add-on
 COPY rootfs /
 
