@@ -1,10 +1,8 @@
-# Changelog
-## 0.5.1
-- Add support for "passive" device 
-
+# Changelog 
 ## 0.5.0
 - Ability to add multiple 1-Wire devices - **breaking change**, requires addon re-configuration
 - Update hassio-addons/addon-base to v15.3.4
+- Add support for "passive" device
 
 ### Breaking change: read before you upgrade!
 
