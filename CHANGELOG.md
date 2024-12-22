@@ -1,4 +1,6 @@
 # Changelog
+## 0.5.1
+- Add support for "passive" device 
 
 ## 0.5.0
 - Ability to add multiple 1-Wire devices - **breaking change**, requires addon re-configuration
