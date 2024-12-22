@@ -3,7 +3,7 @@ FROM ${BUILD_FROM}
 
 ENV LANG C.UTF-8
 
-RUN apk update
+RUN apk add --update --no-cache libgcc
 RUN apk add --no-cache --virtual .build-deps alpine-keys bash automake make git rsync tar gcc g++ \
   binutils libstdc++ libgfortran readline readline-dev python3-dev dev86 m4 libtool autoconf swig \
   linux-headers build-base util-linux \
